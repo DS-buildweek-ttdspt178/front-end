@@ -13,10 +13,18 @@ To use these interactive docs:
 - Edit the Request body or any parameters
 - Click the **Execute** button
 - Scroll down to see the Server response Code & Details
+
+We'll use the [Palmer Penguins](https://github.com/allisonhorst/palmerpenguins) dataset. It's an alternative to [Iris](https://en.wikipedia.org/wiki/Iris_flower_data_set). Instead of using Iris flower measurements to predict one of three species, we'll use penguin measurements to predict one of three species.
+
+<img src="https://raw.githubusercontent.com/allisonhorst/palmerpenguins/master/man/figures/lter_penguins.png" width="50%" />
+
+Artwork by [@allison_horst](https://twitter.com/allison_horst)
+
+
 """
 
 app = FastAPI(
-    title='AirBnB Optimal Price App New-Features Branch',
+    title='🐧 Penguin Predictor API',
     description=description,
     docs_url='/',
     version='1.0.0',
