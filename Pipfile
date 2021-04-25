@@ -18,7 +18,7 @@ plotly = "*"
 sqlalchemy = "*"
 uvicorn = {extras = ["standard"], version = "*"}
 joblib = "==1.0.1"
-scikit-learn = "==0.22.2.post1"
+scikit-learn = "==0.23.2"
 
 [requires]
 python_version = "3"
