@@ -16,7 +16,7 @@ To use these interactive docs:
 """
 
 app = FastAPI(
-    title='AirBnB Optimal Price App',
+    title='AirBnB Optimal Price App New-Features Branch',
     description=description,
     docs_url='/',
     version='1.0.0',
