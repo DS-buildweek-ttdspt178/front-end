@@ -61,6 +61,10 @@ templates = Jinja2Templates(directory=BASE_DIR / "templates")
 def home_page(request: Request):
     return templates.TemplateResponse("index.html", {"request": request})
 
+@app.get("/index.html")
+def home_page(request: Request):
+    return templates.TemplateResponse("index.html", {"request": request})
+
 
 @app.get("/landing.html")
 def home_page(request: Request):
