@@ -117,7 +117,8 @@
 					</div>
 					<div class="col-12">
 						<ul class="actions">
-							<li><input type="submit" value="Find Optimized Rent!" class="primary" /></li>
+							<li><input type="submit" value="Find Optimized Rent!" class="primary" id="predict_rent" /></li>
+							<p id="hiddenMessage" style="display:none">This is a hidden message</p>
 							<!-- <li><input type="reset" value="Reset" /></li> -->
 						</ul>
 					</div>
@@ -210,6 +211,7 @@
 	</div>
 
 	<!-- Scripts -->
+	<script src="../static/predict.js"></script>
 	<script src="{{ url_for('static', path='assets/js/jquery.min.js') }}"></script>
 	<script src="{{ url_for('static', path='assets/js/jquery.scrolly.min.js') }}"></script>
 	<script src="{{ url_for('static', path='assets/js/jquery.scrollex.min.js') }}"></script>
